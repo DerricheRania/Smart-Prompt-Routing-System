@@ -2,7 +2,7 @@
 
 A mini agent that reads a user's prompt, figures out what they actually want
 (translate, summarize, check sentiment, answer a question, or just chat), and
-routes it to a small specialized HuggingFace model that handles that task —
+routes it to a small specialized HuggingFace model that handles that task
 all behind a simple web chat interface.
 
 ```
