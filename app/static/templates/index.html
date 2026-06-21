@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <title>Smart Prompt Router</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="masthead">
+        <h1>Smart Prompt Router</h1>
+        <p>One box, five specialists — type anything and watch it get routed.</p>
+      </header>
+
+      <div class="routing-strip" id="routingStrip">
+        <div class="routing-node" data-agent="translation">
+          <span class="routing-dot"></span>
+          <span class="routing-label">Translate</span>
+        </div>
+        <div class="routing-node" data-agent="summarization">
+          <span class="routing-dot"></span>
+          <span class="routing-label">Summarize</span>
+        </div>
+        <div class="routing-node" data-agent="sentiment">
+          <span class="routing-dot"></span>
+          <span class="routing-label">Sentiment</span>
+        </div>
+        <div class="routing-node" data-agent="qa">
+          <span class="routing-dot"></span>
+          <span class="routing-label">Q&amp;A</span>
+        </div>
+        <div class="routing-node" data-agent="chat">
+          <span class="routing-dot"></span>
+          <span class="routing-label">Chat</span>
+        </div>
+      </div>
+
+      <main class="chat-card">
+        <div class="chat-card-header">
+          <span class="agent-tag" id="agentTag">Waiting for input</span>
+          <div class="header-actions">
+            <button class="icon-btn" id="retryBtn" title="Resend the last message">Retry</button>
+            <button class="icon-btn" id="newChatBtn" title="Clear this conversation">New chat</button>
+          </div>
+        </div>
+
+        <div class="messages" id="messages">
+          <div class="empty-state" id="emptyState">
+            <strong>Try anything.</strong>
+            Translate a sentence, paste a paragraph to summarize, ask a factual
+            question, check a review's sentiment, or just say hello — the
+            classifier figures out which specialist should answer.
+          </div>
+        </div>
+
+        <form class="composer" id="composerForm" autocomplete="off">
+          <input
+            type="text"
+            id="composerInput"
+            class="composer-input"
+            placeholder="Type a prompt…"
+            required
+          />
+          <button type="submit" class="send-btn" id="sendBtn">Send</button>
+        </form>
+      </main>
+
+      <p class="footer-hint">
+        First request for each specialist type is slower while its model loads — after that it stays fast.
+      </p>
+    </div>
+
+    <script>
+      // ---------- Session handling ----------
+      // session_id groups multi-turn messages together so the chat agent can
+      // keep conversation history. A new id is created per page load and reset
+      // whenever "New chat" is clicked.
+      function newSessionId() {
+        return (crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`);
+      }
+      let sessionId = newSessionId();
+      let lastQuery = "";
+
+      // ---------- Elements ----------
+      const messagesEl = document.getElementById("messages");
+      const emptyState = document.getElementById("emptyState");
+      const composerForm = document.getElementById("composerForm");
+      const composerInput = document.getElementById("composerInput");
+      const sendBtn = document.getElementById("sendBtn");
+      const agentTag = document.getElementById("agentTag");
+      const retryBtn = document.getElementById("retryBtn");
+      const newChatBtn = document.getElementById("newChatBtn");
+      const routingNodes = document.querySelectorAll(".routing-node");
+
+      const AGENT_LABELS = {
+        translation: "Translation agent",
+        summarization: "Summarization agent",
+        sentiment: "Sentiment agent",
+        qa: "Q&A agent",
+        chat: "Chat agent",
+      };
+
+      function setActiveAgent(intent) {
+        routingNodes.forEach((node) => {
+          node.classList.toggle("active", node.dataset.agent === intent);
+        });
+        if (intent && AGENT_LABELS[intent]) {
+          agentTag.textContent = AGENT_LABELS[intent];
+          agentTag.dataset.agent = intent;
+        }
+      }
+
+      function appendBubble(text, who, agent) {
+        emptyState.style.display = "none";
+
+        const row = document.createElement("div");
+        row.className = `bubble-row ${who}`;
+
+        const bubble = document.createElement("div");
+        bubble.className = `bubble ${who}`;
+        if (agent) bubble.dataset.agent = agent;
+        bubble.textContent = text;
+        row.appendChild(bubble);
+
+        if (who === "agent" && agent && AGENT_LABELS[agent]) {
+          const meta = document.createElement("div");
+          meta.className = "bubble-meta";
+          meta.textContent = AGENT_LABELS[agent];
+          row.appendChild(meta);
+        }
+
+        messagesEl.appendChild(row);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+        return row;
+      }
+
+      function appendLoadingBubble() {
+        const row = document.createElement("div");
+        row.className = "bubble-row agent";
+        row.id = "loadingRow";
+        const bubble = document.createElement("div");
+        bubble.className = "bubble agent loading";
+        bubble.textContent = "Routing & thinking…";
+        row.appendChild(bubble);
+        messagesEl.appendChild(row);
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+      }
+
+      function removeLoadingBubble() {
+        const row = document.getElementById("loadingRow");
+        if (row) row.remove();
+      }
+
+      async function askAgent(query) {
+        lastQuery = query;
+        appendLoadingBubble();
+        sendBtn.disabled = true;
+
+        try {
+          const url = `/agents/ask?query=${encodeURIComponent(query)}&session_id=${encodeURIComponent(sessionId)}`;
+          const res = await fetch(url);
+          removeLoadingBubble();
+
+          if (!res.ok) {
+            const errBody = await res.json().catch(() => ({}));
+            appendBubble(errBody.detail || "Something went wrong contacting the agent.", "agent");
+            return;
+          }
+
+          const data = await res.json();
+          setActiveAgent(data.intent);
+          appendBubble(data.response, "agent", data.intent);
+        } catch (err) {
+          removeLoadingBubble();
+          appendBubble("Error contacting the server. Is the app still running?", "agent");
+          console.error(err);
+        } finally {
+          sendBtn.disabled = false;
+        }
+      }
+
+      composerForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const query = composerInput.value.trim();
+        if (!query) return;
+
+        appendBubble(query, "user");
+        composerInput.value = "";
+        askAgent(query);
+      });
+
+      retryBtn.addEventListener("click", () => {
+        if (lastQuery) askAgent(lastQuery);
+      });
+
+      newChatBtn.addEventListener("click", async () => {
+        try {
+          await fetch(`/agents/reset?session_id=${encodeURIComponent(sessionId)}`, {
+            method: "POST",
+          });
+        } catch (err) {
+          console.error("Failed to reset session on server:", err);
+        }
+        sessionId = newSessionId();
+        lastQuery = "";
+        messagesEl.innerHTML = "";
+        messagesEl.appendChild(emptyState);
+        emptyState.style.display = "block";
+        agentTag.textContent = "Waiting for input";
+        delete agentTag.dataset.agent;
+        setActiveAgent(null);
+        composerInput.focus();
+      });
+
+      composerInput.focus();
+    </script>
+  </body>
+</html>

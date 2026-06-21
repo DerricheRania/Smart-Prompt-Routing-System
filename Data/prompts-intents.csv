@@ -1,0 +1,600 @@
+prompt,intent
+"Hey, how are you doing today?",chat
+What is the capital of Australia?,qa
+"Translate 'Hello, how are you?' into Spanish.",translation
+Summarize the main points of the article provided below.,summarization
+Is the following review positive or negative: 'The service was terrible and the food was cold.',sentiment
+Can you tell me a funny joke?,chat
+Who wrote the novel 'Pride and Prejudice'?,qa
+How do you say 'Good morning' in Japanese?,translation
+Give me a TL;DR of this email thread.,summarization
+Analyze the sentiment of this sentence: 'I am absolutely delighted with my new phone!',sentiment
+"I'm feeling a bit down, can you cheer me up?",chat
+What is the chemical symbol for Gold?,qa
+Translate this paragraph from English to French.,translation
+Condense this report into three bullet points.,summarization
+What emotion is conveyed in this text: 'Why won't this stupid computer work?',sentiment
+Let's roleplay that you are a wizard in a fantasy world.,chat
+How many continents are there on Earth?,qa
+Convert the following German text to English: 'Das Wetter ist heute schön.',translation
+Make this long explanation shorter and easier to understand.,summarization
+Classify the tone of this message: 'We regret to inform you that your application was unsuccessful.',sentiment
+Do you have any recommendations for a good sci-fi movie?,chat
+What is the speed of light in a vacuum?,qa
+Translate the phrase 'Bon appétit' into English.,translation
+Please summarize the plot of 'Romeo and Juliet' in one sentence.,summarization
+"Is the sentiment of this tweet sarcastic? 'Oh great, another flat tire. Just what I needed.'",sentiment
+What do you think about the concept of artificial intelligence?,chat
+Who was the first person to walk on the moon?,qa
+I need this contract translated from Italian to English.,translation
+Give me the gist of this conversation.,summarization
+Determine if this feedback is constructive or destructive: 'Your design is ugly and useless.',sentiment
+Tell me a story about a dragon and a knight.,chat
+What implies the Pythagorean theorem?,qa
+How do you write 'Thank you' in Korean?,translation
+Rewrite this paragraph to be more concise.,summarization
+Does this customer sound angry? 'I've been waiting for on hold for 45 minutes!',sentiment
+"If you could eat food, what would be your favorite meal?",chat
+In what year did World War II end?,qa
+Translate 'I love you' into 5 different languages.,translation
+Provide a brief abstract for this research paper.,summarization
+"Rate the sentiment of this comment on a scale of 1 to 5, where 5 is happiest.",sentiment
+Good evening! Ready to help me with some work?,chat
+What is the powerhouse of the cell?,qa
+Translate this Chinese menu item to English.,translation
+Cut the fluff from this text and give me the facts.,summarization
+Is the vibe of this message professional or casual?,sentiment
+Give me some travel tips for visiting Japan.,chat
+Who painted the Mona Lisa?,qa
+What is the Portuguese translation for 'Where is the library?',translation
+Summarize the key takeaways from the meeting transcript below.,summarization
+Identify the primary emotion in this diary entry.,sentiment
+Do you believe in ghosts?,chat
+What is the boiling point of water at sea level?,qa
+Translate this technical manual from English to German.,translation
+Draft a summary of the news regarding the recent election.,summarization
+Is this movie review favorable? 'It was a complete waste of time.',sentiment
+Act like a personal trainer and give me a workout plan.,chat
+What is the largest mammal in the world?,qa
+How do you say 'Cheers' in Russian?,translation
+Shorten this intro to just two sentences.,summarization
+Detect the sentiment: 'I'm cautiously optimistic about the results.',sentiment
+What's your favorite color?,chat
+Who discovered penicillin?,qa
+Translate the following lyrics into English.,translation
+Can you summarize the difference between these two products?,summarization
+"Is the author of this text happy, sad, or neutral?",sentiment
+Help me brainstorm ideas for a birthday party.,chat
+What is the currency of India?,qa
+Translate 'Good night' to Hindi.,translation
+Provide a synopsis of the document attached.,summarization
+Analyze the emotional undertone of this resignation letter.,sentiment
+"I'm bored, let's play a word game.",chat
+What is the tallest mountain in the world?,qa
+Translate this sentence into Latin: 'Seize the day.',translation
+Summarize the benefits of a mediterranean diet.,summarization
+Is this customer feedback positive? 'The product broke after two days.',sentiment
+Can you explain the meaning of life to me?,chat
+How many states are in the USA?,qa
+What is the French word for 'Apple'?,translation
+Give me a summary of the latest climate change report.,summarization
+"Sentiment analysis: 'The movie was okay, not great but not bad.'",sentiment
+Write a poem about a lonely robot.,chat
+Who is the current President of the United States?,qa
+Translate this Dutch website to English.,translation
+Summarize this chapter of the book.,summarization
+Does this text convey excitement? 'I can't wait to see you!',sentiment
+What should I cook for dinner tonight?,chat
+What is the square root of 144?,qa
+Translate 'My hovercraft is full of eels' into Hungarian.,translation
+Break down this complex legal jargon into simple terms.,summarization
+Classify the sentiment: 'I'm so frustrated with this software.',sentiment
+Do you like music?,chat
+What planet is known as the Red Planet?,qa
+Translate the following snippet from Arabic to English.,translation
+Summarize the history of the Roman Empire in 100 words.,summarization
+Is this statement ironic? 'Fantastic weather we're having.' (while raining),sentiment
+Tell me a secret.,chat
+Who invented the telephone?,qa
+How do you say 'I do not understand' in Thai?,translation
+Summarize the user's request history.,summarization
+What is the sentiment of 'The landscape was breathtakingly beautiful'?,sentiment
+Imagine we are on a spaceship. What do we see out the window?,chat
+What is the hardest natural substance on Earth?,qa
+Translate this Swedish recipe into English.,translation
+Give me the short version of this lecture transcript.,summarization
+Is the tone of this letter apologetic?,sentiment
+I need some motivation to study.,chat
+How long is a marathon?,qa
+Translate 'See you later' to Turkish.,translation
+Summarize the plot of the movie 'The Matrix'.,summarization
+Analyze the sentiment: 'I feel indifferent about the election results.',sentiment
+Let's discuss the ethics of cloning.,chat
+What creates the tides on Earth?,qa
+Translate this conversation from Greek to English.,translation
+Provide a summary of the quarterly financial results.,summarization
+Is this product description appealing or boring?,sentiment
+Pretend you are a cat. Meow?,chat
+Who wrote 'Hamlet'?,qa
+Translate the word 'Friend' into Swahili.,translation
+Summarize the instructions for assembling this furniture.,summarization
+Does this text sound threatening? 'Watch your back.',sentiment
+What are your hobbies?,chat
+What is the capital of Canada?,qa
+Translate this Polish document to English.,translation
+Give me a quick summary of how photosynthesis works.,summarization
+"Is the sentiment here positive, negative, or mixed? 'I liked the acting, but the script was weak.'",sentiment
+"I'm planning a surprise party, any ideas?",chat
+How many bones are in the adult human body?,qa
+Translate 'Peace' into Hebrew.,translation
+Summarize the terms and conditions of this service.,summarization
+What mood does this song lyric evoke?,sentiment
+Can we be friends?,chat
+What represents the letter 'C' in Roman numerals?,qa
+Translate this phrase to Vietnamese: 'Where is the bathroom?',translation
+Condense this biography into a single paragraph.,summarization
+Is the writer of this blog post angry?,sentiment
+Give me a random fun fact.,chat
+Which planet is closest to the sun?,qa
+Translate 'Happy Birthday' to Indonesian.,translation
+Summarize the main arguments of this debate.,summarization
+Detect the emotion: 'I am so proud of my son's achievement.',sentiment
+What would you do if you won the lottery?,chat
+What is the main ingredient in guacamole?,qa
+Translate this Spanish email to English for me.,translation
+Give me a recap of the last season of 'Game of Thrones'.,summarization
+"Is this comment supportive? 'You are doing a great job, keep it up!'",sentiment
+Do you have a name?,chat
+Who was the first female Prime Minister of the UK?,qa
+Translate 'Welcome' to Finnish.,translation
+Summarize this medical diagnosis.,summarization
+What sentiment is expressed in: 'I'm scared of the dark.',sentiment
+Let's write a song together.,chat
+What is the largest ocean on Earth?,qa
+Translate this paragraph into Tagalog.,translation
+Summarize the steps to bake a cake.,summarization
+Is this text formal or informal?,sentiment
+Tell me something interesting about yourself.,chat
+What is the freezing point of water in Fahrenheit?,qa
+Translate 'Please help me' into Ukrainian.,translation
+Summarize the pros and cons of electric cars.,summarization
+Identify the sentiment: 'I'm exhausted and I just want to sleep.',sentiment
+Are you a robot or a human?,chat
+Who painted 'Starry Night'?,qa
+Translate this code comment from Japanese to English.,translation
+Give me the short version of this privacy policy.,summarization
+"Is the customer satisfied? 'The product works, but shipping took forever.'",sentiment
+Recommend a good book to read.,chat
+What is the capital of Italy?,qa
+Translate 'Good afternoon' to Portuguese.,translation
+Summarize the key events of the Cold War.,summarization
+"Check the sentiment of this headline: 'Market crashes, investors panic.'",sentiment
+Do you dream?,chat
+What is the smallest prime number?,qa
+Translate this sentence to Norwegian: 'It is snowing outside.',translation
+Summarize the plot of 'The Great Gatsby'.,summarization
+What is the mood of this poem?,sentiment
+Let's play twenty questions.,chat
+Who founded Microsoft?,qa
+Translate 'Delicious' into Thai.,translation
+Summarize this customer support chat log.,summarization
+Is the speaker hopeful? 'I believe we can change the world.',sentiment
+What is your favorite food?,chat
+What is the distance between the Earth and the Moon?,qa
+Translate this short story into Spanish.,translation
+Give me a summary of the laws of thermodynamics.,summarization
+Analyze the tone: 'Don't you dare speak to me like that!',sentiment
+Can you keep a secret?,chat
+What year did the Titanic sink?,qa
+Translate 'Exit' to Malay.,translation
+Summarize the nutritional information on this label.,summarization
+Is this tweet joyous? 'Best day of my life!',sentiment
+Describe a sunset to a blind person.,chat
+What is the chemical formula for water?,qa
+Translate 'I am lost' into Czech.,translation
+Summarize the findings of this scientific study.,summarization
+"Does this person sound anxious? 'I'm shaking, I don't know what to do.'",sentiment
+"If you were an animal, what would you be?",chat
+Who wrote the 'Harry Potter' series?,qa
+Translate this business proposal to Mandarin Chinese.,translation
+Give me a summary of the current political situation in Europe.,summarization
+Is this feedback negative? 'I expected better quality for the price.',sentiment
+Tell me a ghost story.,chat
+What is the capital of Germany?,qa
+Translate 'Water' to Danish.,translation
+Summarize the impact of the internet on society.,summarization
+What emotion is this? 'I miss her so much it hurts.',sentiment
+Do you like to travel?,chat
+What is the largest desert in the world?,qa
+Translate this user manual to French.,translation
+Summarize the rules of Chess.,summarization
+"Is the tone here sarcastic? 'Yeah, right, like that will ever happen.'",sentiment
+How do I make friends?,chat
+What is the speed of sound?,qa
+Translate 'Stop' to various languages.,translation
+Summarize this long Reddit post.,summarization
+Identify the sentiment: 'This is the most boring lecture I've ever attended.',sentiment
+What is your opinion on pineapple on pizza?,chat
+Who invented the lightbulb?,qa
+Translate this poem into English.,translation
+Summarize the main conflict in this story.,summarization
+Is this email aggressive? 'Reply immediately or face the consequences.',sentiment
+Let's pretend we are explorers in the jungle.,chat
+What is the capital of Spain?,qa
+Translate 'Excuse me' to Japanese.,translation
+Summarize the benefits of regular exercise.,summarization
+"Determine the mood: 'The party was a blast, everyone was dancing.'",sentiment
+I'm feeling lonely.,chat
+How many players are on a soccer team?,qa
+Translate this phrase into Hindi: 'I am hungry.',translation
+Give me a summary of the article 'The Future of Work'.,summarization
+Is this statement factual or emotional? 'I feel like nobody listens to me.',sentiment
+Can you give me fashion advice?,chat
+What is the tallest building in the world?,qa
+Translate this error message from German.,translation
+Summarize the steps to file a tax return.,summarization
+Analyze the sentiment of this speech snippet.,sentiment
+Do you know any magic tricks?,chat
+What is the currency of Japan?,qa
+Translate 'Good luck' to Korean.,translation
+Summarize the biography of Albert Einstein.,summarization
+"Is the reviewer happy? 'Five stars, highly recommended!'",sentiment
+Let's talk about the universe.,chat
+Who directed the movie 'Jaws'?,qa
+Translate this news headline into Arabic.,translation
+Summarize the causes of the American Revolution.,summarization
+What sentiment does this emoji convey? 😡,sentiment
+I'm having a bad hair day.,chat
+What is the longest river in the world?,qa
+Translate 'I am happy' to Italian.,translation
+Summarize the script of this play.,summarization
+Is the tone of this message respectful?,sentiment
+Tell me about your programming.,chat
+What is the capital of Russia?,qa
+Translate this document from Portuguese to English.,translation
+Give me a summary of the book 'To Kill a Mockingbird'.,summarization
+Classify the emotion: 'I am so confused by these instructions.',sentiment
+Do you have any siblings?,chat
+What is the main gas found in the air we breathe?,qa
+Translate 'Congratulations' to Spanish.,translation
+Summarize the latest tech news.,summarization
+Is the user frustrated? 'Why does this always happen to me?',sentiment
+Let's play a text adventure game.,chat
+Who discovered America?,qa
+Translate this song title to French.,translation
+Summarize the plot of 'The Lord of the Rings'.,summarization
+Analyze the sentiment: 'I'm feeling very zen today.',sentiment
+What are you doing right now?,chat
+What is the atomic number of Oxygen?,qa
+Translate 'Good morning' to Vietnamese.,translation
+Summarize the features of the new iPhone.,summarization
+Is this text optimistic? 'Tomorrow is a new day full of possibilities.',sentiment
+Can you help me plan a vacation?,chat
+Who wrote the 'Iliad'?,qa
+Translate this sentence to Greek: 'Knowledge is power.',translation
+What emotion is conveyed here: 'I can't believe I won!',sentiment
+Do you like art?,chat
+What is the capital of China?,qa
+Translate 'Thank you very much' to German.,translation
+Summarize the user's feedback.,summarization
+Is the sentiment of this review neutral? 'It was exactly as described.',sentiment
+Tell me a riddle.,chat
+What is the hardest rock?,qa
+Translate this menu to English.,translation
+Summarize the plot of 'Star Wars'.,summarization
+Analyze the tone: 'Please refrain from smoking in this area.',sentiment
+How's the weather in the cloud?,chat
+What is the smallest continent?,qa
+Translate 'I love music' to Russian.,translation
+Summarize this article about climate change.,summarization
+Is this person sad? 'I've been feeling really down lately.',sentiment
+Can you dance?,chat
+Who is the CEO of Tesla?,qa
+Translate this page from Italian to English.,translation
+Summarize the key points of this contract.,summarization
+Check the sentiment: 'I hate waiting in line.',sentiment
+What is your favorite movie?,chat
+What is the capital of Egypt?,qa
+Translate 'Hello friend' to Swahili.,translation
+Summarize the benefits of meditation.,summarization
+Is the tone here urgent? 'Call 911 now!',sentiment
+Let's create a new language.,chat
+What is the freezing point of water in Celsius?,qa
+Translate this phrase into Polish.,translation
+Summarize the history of jazz music.,summarization
+Identify the emotion: 'I am so grateful for your help.',sentiment
+Tell me about the future.,chat
+Who painted 'The Last Supper'?,qa
+Translate 'Good night' to Dutch.,translation
+Summarize the plot of 'The Lion King'.,summarization
+Is the customer angry? 'This is the worst service ever!',sentiment
+Do you believe in aliens?,chat
+What is the currency of the UK?,qa
+Translate this paragraph to Turkish.,translation
+Summarize the report on renewable energy.,summarization
+Analyze the sentiment: 'I'm pleasantly surprised by how good this tastes.',sentiment
+"I'm hungry, what should I eat?",chat
+What is the capital of Brazil?,qa
+Translate 'How much is this?' to Chinese.,translation
+Summarize the main idea of this essay.,summarization
+"Is this text sarcastic? 'Oh, brilliant idea.'",sentiment
+Let's plan a heist (fictional).,chat
+Who was the first president of the USA?,qa
+Translate this email response to Japanese.,translation
+Summarize the user's complaints.,summarization
+What sentiment does 'Meh' convey?,sentiment
+How do I become a millionaire?,chat
+What is the speed of light?,qa
+Translate 'I miss you' to French.,translation
+Summarize the content of this webpage.,summarization
+Is the tone of this message friendly?,sentiment
+Do you like sports?,chat
+What is the chemical symbol for Iron?,qa
+Translate this label to German.,translation
+Summarize the risks of smoking.,summarization
+Classify the sentiment: 'I'm so excited for the concert!',sentiment
+Tell me a joke about a programmer.,chat
+What is the largest country by area?,qa
+Translate 'Where is the station?' to Spanish.,translation
+Summarize the minutes of the meeting.,summarization
+Is the sentiment negative here? 'I wish I never bought this.',sentiment
+What is your purpose?,chat
+Who invented the airplane?,qa
+Translate this text message to Korean.,translation
+Summarize the plot of 'Harry Potter and the Sorcerer's Stone'.,summarization
+Analyze the emotion: 'I am deeply saddened by the news.',sentiment
+Let's debate: cats vs dogs.,chat
+What is the capital of India?,qa
+Translate 'Open the door' to Arabic.,translation
+Summarize the advantages of solar power.,summarization
+Is this tweet hateful?,sentiment
+Can you sing?,chat
+What is the square root of 64?,qa
+Translate this sentence to Portuguese: 'I like to read.',translation
+Summarize the history of the Olympic Games.,summarization
+Identify the sentiment: 'This is absolutely disgusting.',sentiment
+What is the meaning of your name?,chat
+Which element has atomic number 1?,qa
+Translate 'Happy New Year' to Vietnamese.,translation
+Summarize the main themes of '1984'.,summarization
+Is the author excited? 'I finally got the job!',sentiment
+Do you get tired?,chat
+What is the capital of Argentina?,qa
+Translate this brochure to Thai.,translation
+Summarize the steps to change a tire.,summarization
+What mood is implied: 'Silence filled the room.',sentiment
+Tell me something funny.,chat
+Who is the author of 'The Hobbit'?,qa
+Translate 'Good evening' to Italian.,translation
+Summarize the impact of AI on the economy.,summarization
+"Is the sentiment positive? 'I love the color, but the fit is wrong.'",sentiment
+How do you learn?,chat
+What is the largest planet in our solar system?,qa
+Translate this instruction manual to Swedish.,translation
+Summarize the life of Nelson Mandela.,summarization
+Analyze the tone: 'You must submit the form by Friday.',sentiment
+Let's make up a story.,chat
+What is the capital of Mexico?,qa
+Translate 'I don't know' to Russian.,translation
+Summarize the plot of 'Frozen'.,summarization
+Is the customer happy? 'Fast shipping and great product.',sentiment
+What is your favorite book?,chat
+How many teeth does an adult human have?,qa
+Translate this article title to Hindi.,translation
+Summarize the key points of the GDPR.,summarization
+Determine the sentiment: 'I'm so bored right now.',sentiment
+Can you keep a conversation going?,chat
+What is the capital of Turkey?,qa
+Translate 'See you soon' to Greek.,translation
+Summarize the theory of relativity.,summarization
+"Is the tone here dismissive? 'Whatever, do what you want.'",sentiment
+I'm stressed out.,chat
+Who discovered gravity?,qa
+Translate this recipe to French.,translation
+Summarize the events of the French Revolution.,summarization
+Analyze the emotion: 'I am overjoyed to hear the news.',sentiment
+Let's discuss philosophy.,chat
+What is the currency of South Korea?,qa
+Translate 'Please' to Finnish.,translation
+Summarize the plot of 'Avatar'.,summarization
+"Is this text encouraging? 'Don't give up, you're almost there!'",sentiment
+Do you have feelings?,chat
+What is the longest bone in the human body?,qa
+Translate this dialogue to Spanish.,translation
+Summarize the benefits of drinking water.,summarization
+Identify the sentiment: 'I feel so alone.',sentiment
+Tell me a bedtime story.,chat
+What is the capital of South Africa?,qa
+Translate 'I am tired' to German.,translation
+Summarize the latest sports news.,summarization
+Is the user confused? 'I don't get it.',sentiment
+Can you be my therapist?,chat
+Who wrote 'The Odyssey'?,qa
+Translate this text to Latin.,translation
+Summarize the plot of 'Titanic'.,summarization
+Analyze the tone: 'Stop bothering me.',sentiment
+What are your dreams?,chat
+What is the capital of Thailand?,qa
+Translate 'I love you' to Japanese.,translation
+Summarize the history of the computer.,summarization
+Is this statement proud? 'I built this with my own hands.',sentiment
+Let's play 'Would You Rather'.,chat
+What is the chemical symbol for Sodium?,qa
+Translate this flyer to Arabic.,translation
+Summarize the main points of this presentation.,summarization
+Classify the sentiment: 'I'm so nervous about the interview.',sentiment
+Give me a compliment.,chat
+Who was the first man in space?,qa
+Translate 'Goodbye' to Portuguese.,translation
+Summarize the plot of 'Jurassic Park'.,summarization
+Is the reviewer disappointed? 'It didn't live up to the hype.',sentiment
+What is your favorite animal?,chat
+What is the capital of Sweden?,qa
+Translate this menu item to Korean.,translation
+Summarize the benefits of yoga.,summarization
+Check the sentiment: 'I am furious!',sentiment
+Can you write code?,chat
+What is the deepest part of the ocean?,qa
+Translate 'Excuse me' to French.,translation
+Summarize the history of the automobile.,summarization
+"Is the tone here mocking? 'Nice hair, did you cut it yourself?'",sentiment
+I'm feeling happy today.,chat
+What is the capital of Norway?,qa
+Translate this letter to Chinese.,translation
+Summarize the plot of 'The Avengers'.,summarization
+Analyze the emotion: 'I am so relieved it's over.',sentiment
+Let's talk about movies.,chat
+Who invented the printing press?,qa
+Translate 'Hello' to Dutch.,translation
+Summarize the causes of global warming.,summarization
+Is this text appreciative? 'Thanks for everything.',sentiment
+Do you like games?,chat
+What is the capital of Finland?,qa
+Translate this sign to English.,translation
+Summarize the biography of Marie Curie.,summarization
+Identify the sentiment: 'I feel sick to my stomach.',sentiment
+Tell me a legend.,chat
+What is the speed of a cheetah?,qa
+Translate 'Yes' to Turkish.,translation
+Summarize the plot of 'Spider-Man'.,summarization
+"Is the customer impressed? 'Wow, this is amazing!'",sentiment
+What is the meaning of love?,chat
+What is the capital of Poland?,qa
+Translate this phrase into Swahili.,translation
+Summarize the importance of bees.,summarization
+Determine the mood: 'The rain poured down relentlessly.',sentiment
+"I'm bored, entertain me.",chat
+Who painted 'The Scream'?,qa
+Translate 'No' to Thai.,translation
+Summarize the history of space exploration.,summarization
+Is the tone here formal? 'We sincerely apologize for the inconvenience.',sentiment
+Can you suggest a hobby?,chat
+What is the capital of New Zealand?,qa
+Translate this abstract to German.,translation
+Summarize the plot of 'Finding Nemo'.,summarization
+Analyze the sentiment: 'I'm torn between two choices.',sentiment
+Let's imagine a world without money.,chat
+Who is the author of 'The Catcher in the Rye'?,qa
+Translate 'Help' to Vietnamese.,translation
+Summarize the benefits of reading.,summarization
+"Is this review harsh? 'Garbage, do not buy.'",sentiment
+Do you like poetry?,chat
+What is the capital of Belgium?,qa
+Translate this quote to Italian.,translation
+Summarize the events of 9/11.,summarization
+What emotion is this? 'I'm shaking with rage.',sentiment
+Tell me a myth.,chat
+What is the largest island in the world?,qa
+Translate 'Welcome' to Polish.,translation
+Summarize the plot of 'Black Panther'.,summarization
+"Is the tone here gentle? 'Be careful, it's fragile.'",sentiment
+How do you define happiness?,chat
+What is the capital of Austria?,qa
+Translate this sentence to Indonesian.,translation
+Summarize the importance of recycling.,summarization
+Classify the sentiment: 'I am deeply honored.',sentiment
+Let's chat about technology.,chat
+Who discovered electricity?,qa
+Translate 'Friend' to Russian.,translation
+Summarize the history of the telephone.,summarization
+Is the user skeptical? 'I'll believe it when I see it.',sentiment
+What's the best advice you've ever given?,chat
+What is the capital of Denmark?,qa
+Translate this warning label to French.,translation
+Summarize the plot of 'Inception'.,summarization
+Analyze the emotion: 'I am so confused about what to do.',sentiment
+I'm feeling creative.,chat
+Who is the god of thunder in Norse mythology?,qa
+Translate 'Love' to Hindi.,translation
+Summarize the benefits of green tea.,summarization
+Is this statement assertive? 'I demand an answer.',sentiment
+Can you keep a diary for me?,chat
+What is the capital of Ireland?,qa
+Translate this note to Japanese.,translation
+Summarize the plot of 'The Hunger Games'.,summarization
+Identify the sentiment: 'I feel lighter now that I've said it.',sentiment
+Tell me a fable.,chat
+What is the smallest country in the world?,qa
+Translate 'Good morning' to Arabic.,translation
+Summarize the history of the bicycle.,summarization
+"Is the tone here persuasive? 'You really should try it, it's great!'",sentiment
+What is your favorite number?,chat
+What is the capital of Portugal?,qa
+Translate this email to Spanish.,translation
+Summarize the plot of 'Forrest Gump'.,summarization
+Check the sentiment: 'I'm not sure how I feel.',sentiment
+Let's write a story about a robot.,chat
+Who invented the radio?,qa
+Translate 'Peace' to Chinese.,translation
+Summarize the benefits of sleep.,summarization
+Is this tweet funny? 'Why did the chicken cross the road?',sentiment
+Do you like nature?,chat
+What is the capital of Switzerland?,qa
+Translate this description to German.,translation
+Summarize the life of Steve Jobs.,summarization
+Analyze the tone: 'Mind your own business.',sentiment
+I'm feeling nostalgic.,chat
+What is the largest lake in the world?,qa
+Translate 'Thank you' to Korean.,translation
+Summarize the plot of 'Shrek'.,summarization
+Is the customer loyal? 'I only buy from this brand.',sentiment
+What is your favorite song?,chat
+What is the capital of the Netherlands?,qa
+Translate this post to Portuguese.,translation
+Summarize the history of photography.,summarization
+Determine the mood: 'The sun was shining and birds were singing.',sentiment
+Can you help me solve a problem?,chat
+Who painted the Sistine Chapel ceiling?,qa
+Translate 'Sorry' to Italian.,translation
+Summarize the plot of 'Toy Story'.,summarization
+Is the tone here commanding? 'Do it now!',sentiment
+Let's roleplay a job interview.,chat
+What is the capital of Greece?,qa
+Translate this phrase to Turkish.,translation
+Summarize the importance of biodiversity.,summarization
+Classify the sentiment: 'I am so inspired by this.',sentiment
+Tell me a fun fact about animals.,chat
+What is the deepest lake in the world?,qa
+Translate 'Water' to Malay.,translation
+Summarize the plot of 'The Dark Knight'.,summarization
+Is the user regretful? 'I shouldn't have done that.',sentiment
+How do you stay positive?,chat
+What is the capital of Chile?,qa
+Translate this sentence to Thai.,translation
+Summarize the history of television.,summarization
+Analyze the emotion: 'I am filled with dread.',sentiment
+I'm feeling adventurous.,chat
+Who is the richest person in the world?,qa
+Translate 'Hello' to Greek.,translation
+Summarize the benefits of swimming.,summarization
+Is this text rude? 'Get out of my face.',sentiment
+Can you be my friend?,chat
+What is the capital of Peru?,qa
+Translate this sign to Russian.,translation
+Summarize the plot of 'Interstellar'.,summarization
+Identify the sentiment: 'I am so grateful for this opportunity.',sentiment
+Tell me a story about a spaceship.,chat
+What is the hottest planet in the solar system?,qa
+Translate 'Goodbye' to Swedish.,translation
+Summarize the history of the internet.,summarization
+Is the tone here calm? 'Take a deep breath and relax.',sentiment
+What is your favorite color?,chat
+What is the capital of Colombia?,qa
+Translate this letter to Vietnamese.,translation
+Summarize the plot of 'Moana'.,summarization
+Check the sentiment: 'I am so jealous.',sentiment
+Let's plan a dinner party.,chat
+Who invented the steam engine?,qa
+Translate 'Yes' to Polish.,translation
+Summarize the benefits of running.,summarization
+Is this tweet excited? 'I can't wait!!!',sentiment
+Do you like space?,chat
+What is the capital of Venezuela?,qa
+Translate this description to Finnish.,translation
+Summarize the life of Martin Luther King Jr.,summarization
+Analyze the tone: 'You are required to attend.',sentiment
+I'm feeling silly.,chat
+What is the heaviest animal on land?,qa
+Translate 'No' to Czech.,translation
+Summarize the plot of 'The Godfather'.,summarization
+Is the customer satisfied? 'It does the job.',sentiment
