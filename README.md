@@ -59,12 +59,12 @@ Smart Prompt Routing System/
 ```
 
 > The notebook and CSV live in their own top-level folders (`Notebook/`, `Data/`)
-> rather than next to `app/` — if you move either one, just update the `PATH`
+> rather than next to `app/` if you move either one, just update the `PATH`
 > variable at the top of the notebook to point at the new CSV location.
 
 ## The dataset
 
-`Data/prompts-intents.csv` — **599 labeled prompts**, roughly balanced across
+`Data/prompts-intents.csv` **599 labeled prompts**, roughly balanced across
 5 intents:
 
 | Intent | Count | Example |
@@ -114,7 +114,7 @@ easy task for even a linear model once it has enough labeled examples.
 | `summarization` | `google-t5/t5-base` | Upgraded from `t5-small`, which was too weak: it echoed short paragraphs back almost verbatim and degenerated into gibberish on longer ones. `t5-base` actually compresses text. |
 | `sentiment` | `distilbert-base-uncased-finetuned-sst-2-english` | A DistilBERT model fine-tuned specifically for positive/negative sentiment, small and reliable for this narrow task. |
 | `qa` | `microsoft/Phi-4-mini-instruct` | Went through two earlier models first: `flan-t5-small`, then `flan-t5-base`, both were too small to reliably recall facts and answered confidently but wrong (see [Known limitations](#known-limitations) and the Q&A screenshot below). Phi-4-mini-instruct (3.8B, MIT license) is a modern instruction-tuned model with much stronger factual recall, while still running on CPU without a GPU. |
-| `chat` | `microsoft/Phi-4-mini-instruct` | Replaces `DialoGPT-small` (a 2019-era model with no instruction-following, prone to echoing the prompt back). Shares the same loaded model as `qa`, cached once, used for both — with full per-session conversation history passed through its real chat template for proper multi-turn context. |
+| `chat` | `microsoft/Phi-4-mini-instruct` | Replaces `DialoGPT-small` (a 2019-era model with no instruction-following, prone to echoing the prompt back). Shares the same loaded model as `qa`, cached once, used for both with full per-session conversation history passed through its real chat template for proper multi-turn context. |
 
 `qa` and `chat` share the same loaded model in memory (cached once, used with
 different prompting), so the app effectively loads 4 distinct models total,
