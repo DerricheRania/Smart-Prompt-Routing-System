@@ -95,7 +95,7 @@ Full walkthrough is in `Notebook/mini_agent.ipynb`. Summary of the approach:
 5. **Result**: **~95–96% test accuracy / macro-F1** on the 90-example held-out
    test set. The confusion matrix (in the notebook) shows the small amount of
    confusion that exists is mostly between `sentiment` and `qa`/`summarization`
-   — prompts that mix an opinion with a question about a passage can look
+    prompts that mix an opinion with a question about a passage can look
    lexically similar to a bag-of-words model.
 6. **Artifacts saved**: `intent_classifier.pkl` (the full TF-IDF + Logistic
    Regression pipeline) and `label_encoder.pkl` (maps the 5 string labels to
@@ -209,10 +209,10 @@ handles a prompt; it has no dependency on which model that specialist calls.
   the original `flan-t5`/`DialoGPT` setup).
 - **Q&A can still be wrong on very obscure or recent facts.** Phi-4-mini-instruct
   is far stronger than `flan-t5-base`, but it's still a "mini" model with a
-  training cutoff — don't expect perfect recall on niche trivia or anything
+  training cutoff  don't expect perfect recall on niche trivia or anything
   past its training data.
 - **Chat history is capped** at roughly 1024 tokens per session (older turns
-  get dropped first) to keep generation fast — very long conversations will
+  get dropped first) to keep generation fast  very long conversations will
   eventually "forget" their earliest messages.
 - **Summarization can still struggle on unusual text.** `t5-base` is a solid
   step up from `t5-small`, but on very short, very long, or unusually
@@ -264,7 +264,7 @@ This run is from the **`flan-t5-base` version** of the `qa` model (since
 upgraded to `Phi-4-mini-instruct` see
 [Known limitations](#known-limitations)). It's kept here deliberately: it's
 a clear example of confident-but-wrong output ("Montreal" is not the capital
-of Canada; "Franz Heinrich Schumann" did not paint the Mona Lisa) — the exact
+of Canada; "Franz Heinrich Schumann" did not paint the Mona Lisa) the exact
 failure mode that motivated the upgrade.
 
 ![Q&A agent showing flan-t5-base's factual errors](./screenshots/Q&A.png)
